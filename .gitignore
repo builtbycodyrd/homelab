@@ -1,0 +1,22 @@
+# Secrets — never commit
+.env
+*.env
+!.env.example
+ops.yaml
+*.key
+*.pem
+*.crt
+*credential*
+*secret*
+*token*
+!*.example*
+
+# Local state
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.log
+*.bak
+*.bak-*
+.DS_Store

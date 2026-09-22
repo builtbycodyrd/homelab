@@ -1,0 +1,18 @@
+# Named write operations. The command phrase must match a KEY exactly.
+#
+# Never build these from speech. Speech recognition cannot reliably transcribe
+# service names, URLs, or numeric IDs, and a misheard word must never become a
+# different command. Every operation is defined here with fixed parameters.
+#
+# Each entry is submitted to the approval gate — nothing here executes directly.
+
+restart media server:
+  description: Restart the media server container
+  plan:
+    - <restart command for the media container>
+
+redeploy dashboard:
+  description: Pull the latest dashboard image and redeploy it
+  plan:
+    - <pull command>
+    - <redeploy command>
