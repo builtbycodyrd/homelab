@@ -87,7 +87,11 @@ flowchart TB
     GAMES --> P3
 ```
 
+![Proxmox datacenter summary](images/proxmox-summary.webp)
+
 Every service runs in its own unprivileged LXC container. Containers are small, independently restartable, and snapshot before I change anything. Remote access goes through a mesh VPN rather than open ports, so there is no public attack surface to maintain.
+
+![The dashboard that fronts it all](images/dashboard.webp)
 
 ---
 

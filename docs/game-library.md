@@ -2,7 +2,7 @@
 
 A browser-based game library served from the homelab, plus a streaming path for titles that can't run in a browser, plus the automated pipeline that gets things onto the shelf without me touching them.
 
-![The library UI](../images/gameshelf-library.png)
+![The library UI](../images/gameshelf-library.webp)
 
 The interesting part isn't the front end. It's what happens between "a folder appears" and "a playable entry with cover art shows up in the UI."
 
