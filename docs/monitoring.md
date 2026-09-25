@@ -4,11 +4,15 @@ Three layers of "is everything okay": a dashboard I look at, a monitor that watc
 
 ## Dashboard
 
+![The homelab dashboard](../images/dashboard.webp)
+
 A single page linking every service, each tile showing live status. It's the browser home page on every device I use, which means the first thing I see each day is whether anything is red.
 
 The value isn't the links. It's that a service being down is visible passively, without me deciding to go check.
 
 ## Uptime monitoring
+
+![Service status page](../images/uptime-status.webp)
 
 Per-service health checks on a schedule, with history and alerting.
 
